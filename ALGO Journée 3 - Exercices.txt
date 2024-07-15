@@ -1,0 +1,170 @@
+ALGO Journée 2 - Exercices
+
+Exercice 1 :
+
+
+Écrire un algorithme qui affiche tous les nombres pairs compris entre 1 et 100.
+
+i=2
+si i=<100 alors i+2
+afficher i
+
+ou
+
+fonction affichePair(x,y)
+
+	pour (i=x;i<x,y)
+		si (i%2==0)
+			afficher(i)
+
+Exercice 2 :
+
+
+Écrire une fonction qui affiche les nombres deux chiffres passés en paramètre
+Exemple :
+afficheEntier(2, 7)
+Résultat : 2 3 4 5 6 7
+
+-*-
+
+
+fonction afficheEntier (x,y)
+{
+	for (i=x ; i<=y ; i++)
+	afficher (i)
+}
+
+
+Exercice 3 :
+
+
+Écrire un algorithme qui recherche la valeur maximale dans un tableau de nombres.
+exemple de tableau :
+variable mesNombres = [2, 18,42,128,7,34]
+Votre algo doit afficher 128 qui est le plus grand entier du tableau
+
+*-*
+
+variable mesNombres = [2, 18, 42, 128, 7, 34];
+
+function trouverMax(nombres) 
+
+{ 
+  variable max = 0
+  for ( i = 0; i < count(tab) ; i++) 
+    {
+    si (tab[i] > max) 
+      max = tab[i];
+    }
+  }
+
+  afficher max;
+}
+
+
+Exercice 4 :
+
+
+Écrire un algorithme qui remplace un élément donné dans un tableau par une nouvelle
+valeur.
+Exemple :
+variable tableau = [“toto”,”titi”, “tutu”]
+remplaceTableau(“toto”, “yoyo”, tableau)
+Résultat : tableau = [“yoyo”,”titi”, “tutu”]
+
+*-*
+
+variable tab ["toto","titi","tutu"]
+	search [i]=(toto)
+	[i]=yoyo
+afficher tab
+
+ 
+
+Exercice 5 :
+
+
+Créer un programme qui affiche la position d’une flèche en fonction d’un nombre passé en
+paramètre compris entre 1 et 4.
+1 => haut
+2 => bas
+3 => gauche
+4 => droite
+Pour celà, vous devez utiliser la structure switch
+Exemple :
+positionFleche(1)
+Résultat : haut
+
+-*-
+fonction positionFleche(nb)
+
+	switch (nb)
+		case = 1
+		afficher (haut)
+		break
+		case = 2
+		afficher (bas)
+		break
+		case = 3
+		afficher (gauche)
+		break
+		case= 4
+		afficher (droite)
+		break
+
+	
+
+
+
+Exercice 6 :
+
+
+Ecrire une fonction puissance.
+Exemple :
+Puissance(2, 3)
+Résultat : 8
+Le calcul effectué est 2 puissance 3 soit 2*2*2
+
+
+
+fonction puissance(nb,power)
+
+	if(power<1)
+		afficher ("la puissance doit etre inferieur a 1")
+
+	else
+
+	variable resultat = nb
+	for(i=1;i<power;i++)
+
+		resultat*=nb
+
+	afficher(resultat)
+
+	
+
+
+Exercice 7 :
+
+
+Sur le principe du juste prix, créer une fonction qui prend en paramètre 2 chiffres et qui
+donne une indication sur la position du premier par rapport au deuxième.
+Exemple :
+justePrix(5,50)
+Réponse : C’est +
+justePrix(55,50)
+Réponse : C’est -
+justePrix(50,50)
+Réponse : Bravo !
+
+-*-
+
+fonction justePrix(x,y)
+	{
+	si x > y 
+	afficher :"c'est -"
+	sinon si x < y
+	afficher :"c'est +"
+	sinon 
+	afficher :"Bravo!"
+	}

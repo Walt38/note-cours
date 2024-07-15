@@ -1,0 +1,52 @@
+GIT GITHUB
+
+
+Commande :
+
+"ls" : permet d'afficher le contenu d'un répertoire, c'est-à-dire les fichiers et les sous-répertoires qu'il contient. Lorsque vous exécutez la commande "ls", vous obtenez la liste des noms de fichiers et dossiers présents dans votre répertoire courant. En ligne de commande, cela ressemble à ceci :
+
+
+ls
+"cd" : cette commande permet de changer de répertoire en spécifiant un “chemin relatif”.
+
+Exemple :
+
+Imaginons que vous souhaitiez aller au répertoire "documents".
+
+Vous pouvez exécuter la commande suivante :
+
+cd documents
+Si vous voulez revenir au répertoire parent, vous pouvez utiliser la commande :
+
+cd ..
+"mkdir" : grâce à cette commande, vous pouvez créer un nouveau répertoire. Par exemple, si vous voulez créer un répertoire nommé "projets", vous pouvez exécuter la commande suivante :
+
+mkdir projets
+"touch" : cette commande permet de créer un nouveau fichier vide. Par exemple, pour créer un fichier nommé "nouveau_fichier.txt", vous pouvez exécuter la commande suivante :
+
+touch nouveau_fichier.txt
+”rm” : cette commande permet de supprimer un fichier ou un dossier.
+
+----------------------------------------------------------------------------------
+
+Pour indexer le fichier nom_fichier.html, vous pouvez exécuter cette commande :
+
+git add nom_fichier.html
+
+Si vous voulez ajouter tous les fichiers modifiés, vous pouvez exécuter cette commande :
+
+git add .
+
+Pour faire un commit, vous pouvez exécuter cette commande :
+
+git commit -m “Message de votre commit”
+
+Voici les options les plus connues :
+
+`-m "message"` ou `--message "message"` : permet de spécifier le message du commit directement en ligne de commande.
+
+`-a` ou `--all` : ajoute automatiquement tous les fichiers modifiés et supprimés à l'index avant de créer le commit. Cela permet d'éviter d'utiliser préalablement git add pour chaque fichier modifié.
+
+`-am "message" ` : combinaison des options -a et -m. Cette option permet de créer un commit en incluant automatiquement tous les fichiers modifiés et supprimés, tout en spécifiant le message du commit en ligne de commande.
+
+

@@ -1,0 +1,46 @@
+Algo avec Greg RENUY:
+
+exercices live J8
+
+
+
+
+
+
+			ARRAY
+
+
+variable tab (array);          
+
+tab[0] <- "pomme"
+tab[1] <- "kiwi"
+tab[2] <- "ananas"
+
+variable i=0
+ tant que i<3
+	si tab[i] == "kiwi"
+	afficher (i)
+	i=i++
+
+-----------------------------------------------------
+
+
+			SWITCH CASE
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/switch
+
+
+switch(marque)
+
+	case"renault":
+		afficher ("clio","megane","...")
+
+        case "Peugeot":
+		afficher("308","208", "...)
+
+default: 
+	afficher("marque inconue")
+
+----------------------------------------------------
+
+
+			

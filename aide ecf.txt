@@ -1,0 +1,29 @@
+Ecf 20 spetembre 2024:
+------------------------------------------------------------------------------------------------------------------
+Front-end:
+
+ Installer et configurer son environnement de travail en fonction du projet web ou web
+mobile
+
+ Maquetter des interfaces utilisateur web ou web mobile (12 maquettes : 6wireframe:web, phone ect   6 mockups : ideme mais detailé)
+
+ Réaliser des interfaces utilisateur statiques web ou web mobile (html css)
+
+ Développer la partie dynamique des interfaces utilisateur web ou web mobile (javascript)
+
+
+Back-end:
+
+	 Mettre en place une base de données relationnelle ( php ou python)
+	 Développer des composants d'accès aux données SQL et NoSQL (acces au données)
+	 Développer des composants métier coté serveur (l'encapsulation, la gestion,uml)
+	 Documenter le déploiement d'une application dynamique web ou web mobile
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+préz de l'entreprise.
+
+Description du projet:
+
+--------------------------------------   

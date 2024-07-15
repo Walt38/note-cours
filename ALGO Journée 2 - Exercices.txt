@@ -1,0 +1,129 @@
+ALGO Journée 2 - Exercices
+
+
+Exercice 1 :
+
+Écrire un algorithme qui va stocker dans un tableau trois fruits :
+Une pomme, une poire, un ananas
+
+
+-*-
+
+variable fruits (array);           ou[] à la place de (array)
+
+fruits[0] <- "pomme"
+fruits[1] <- "poire"
+fruits[2] <- "ananas"
+
+afficher(fruits);
+
+
+-*-
+
+
+let fruits = ["Pomme", "Poire", "Ananas"];
+
+console.log(fruits);
+
+
+
+
+Exercice 2 :
+
+Fonctions autorisées pour l'exercice :
+write(char)
+cette fonction permet d'écrire le caractère passer en paramètre. il est impossible de lui
+passer un paramètre autre chose.
+strlen(string) vous donne le nombre de caractères de la chaîne passée en paramètre.
+Votre mission, écrire une fonction qui permet d'écrire une chaîne de caractères.
+
+-*-
+
+fonction ecrirechaine(chaineaerire)
+{
+	variablei=0;
+	tant que (i<strlen(chaineaecrire))
+	{
+		write(chainaecrire[i])
+		i=i+1
+	}
+}
+
+
+Exercice 3 :
+
+Écrire une fonction qui va afficher un caractère sur deux d'une chaîne de caractère.
+Exemple :
+ecrireSpecial(“Bonjour”)
+Résultat : “Bnor”
+
+-*-
+
+fonction ecrirechaine(chaineaerire)
+{
+	variablei=0;
+	tant que (i<strlen(chaineaecrire))
+	{
+		write(chainaecrire[i])
+		i=i+2
+	}
+}
+
+
+
+Exercice 4 :
+
+Fonctions autorisées pour l'exercice :
+count(tableau)
+Cette fonction indique le nombre d'éléments présents dans le tableau passé en paramètre
+Écrire une fonction qui affiche les éléments présents dans un tableau. vous testerez cette
+fonction à l'aide de la variable fruits de l'exercice 1
+
+-*-
+
+fonction affichetableau(tableaualire)
+{
+	variable i <- 0;
+	tant que (i<count(tableaualire))
+	{
+		ecrirechain(tableaualire)
+		i=i+1
+	}
+}
+
+
+Exercice 5 :
+
+Résoudre ses opérations logiques:
+TRUE && TRUE && TRUE && FALSE :  False
+FALSE || TRUE || TRUE	:  True
+FALSE || FALSE	:  false
+FALSE && TRUE	:  False
+42 == 42,00	:  true
+42 === 42,00	:  false
+!FALSE && TRUE	:  true
+
+
+Exercice 6 :
+
+
+Sans utiliser de fonction autre que celle abordées dans les exercices précédents, écrivez
+une fonction qui remplace une lettre par une autre dans une chaîne de caractère passée en
+paramètres.
+Exemple :
+myReplace(‘e’, ‘z’, “hello la team”)
+résultat : “Hzllo la tzam²
+
+
+fonction myRepalce(search, replace , chaineAEcrire)
+{
+variable i = 0;
+tant que (i < strlen(chaineAEcrire) )
+	{
+si chaineAEcrire[i] == search
+write(replace)
+sinon
+write(chaineAEcrire[i])
+i = i +1
+	}
+}

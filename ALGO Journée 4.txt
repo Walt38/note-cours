@@ -1,0 +1,280 @@
+			ALGO Journée 4
+
+
+
+“La guerre des étoiles”
+Suite à un piratage, tous les systèmes de navigation de la rébellion sont tombés en panne.
+Soupçonne l'empire de préparer une attaque d'envergure. Cette cyberattaque serait une
+manœuvre pour affaiblir nos défenses.
+Votre mission est de recoder les fonctionnalités de navigation des chasseurs de la rébellion.
+
+
+
+
+Exercice 1 : L’horizon
+
+
+Écrire une fonction qui prend en paramètre un chiffre et qui affiche le nombre d'étoiles
+correspondant à ce paramètre.
+Exemple :
+horizon(10)
+Résultat :
+xxxxxxxxxx
+
+-*-
+
+
+
+fonction etoile(number)
+{
+
+	variable etoile =""
+	
+	for ( i = 0; i < number; i++) 
+   
+    etoile 'x';
+}
+
+afficher etoile
+
+
+
+
+Exercice 2 : L’écran
+
+
+
+Écrire une fonction qui prend un paramètre un chiffre et qui affiche un carré de cette largeur
+exemple :
+ecran(15)
+Résultat :
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+(Même si le visuel ne ressemble pas à un carré il y a bien 15 caractères définissant le côté
+de ce carré, vous n'êtes pas obligé d'effectuer la mise en forme pour que la figure
+géométrique ressemble vraiment à un carré)
+
+-*-
+
+fonction etoile(number)
+{
+
+	variable etoile =""
+	
+	for ( row = 0; row < number; row++) 
+
+	{
+
+		for ( col = 0; col < number; col++) 
+		
+		etoile ++'x';
+
+	}
+
+   
+    etoile 'x';
+}
+
+afficher etoile
+
+
+
+
+Exercice 3 : le cadre de visée
+
+
+
+Écrire une fonction qui prend en paramètre un chiffre et qui affiche un cadre d'étoiles de
+largeur correspondant à ce paramètre
+Exemple :
+viseur(7)
+Résultat :
+xxxxxxx
+x     x
+x     x
+x     x
+x     x
+x     x
+xxxxxxx
+
+
+-*-
+
+function viseur(largeur)
+
+
+	si (ligne==0 || ligne =nb-1)
+		fonction exo 1
+
+
+
+
+
+
+
+-****-
+
+	var horizontal= ""
+	var vertical= ""
+
+
+
+
+
+
+Exercice 4 : La visée verticale
+
+
+
+
+Écrire une fonction qui prend en paramètre un chiffre et qui dessine une ligne verticale de
+cette longueur
+Exemple :
+verticale(7)
+Résultat :
+x
+x
+x
+x
+x
+x
+x
+
+
+-*-
+
+function vertical(longueur)
+
+	for (i=0;i<longueur;i++)
+
+afficher ("x")
+afficher (passage a ligne)
+
+
+
+
+Exercice 5 : Diagonale
+
+
+
+
+
+
+Écrire une fonction qui dessine la diagonale de longueur correspondant aux paramètres de
+ma fonction.
+Exemple :
+diagonale(6)
+Résultat :
+x
+ x
+  x
+   x
+    x
+     x
+
+-*-
+
+function diag(longueur)
+
+	for (row=0;row<longueur;i++)
+
+	for (col=0;col<nb;++)
+
+	si (col==row)
+	afficher (x)
+
+	sinon 
+	afficher (espace)
+
+
+
+
+
+Exercice 6 : Inventaire des armes
+
+
+
+Écrire une fonction qui affiche l'inventaire des armes du vaisseau. les informations sur les
+armes seront passés en paramètre de cette fonction avec un tableau.
+Exemple :
+variable arme = [“canon plasma”,”laser”, “canon à photon”, “bombe ionique”]
+inventaire (armes)
+Résultat :
+canon plasma
+lase
+canon à photon
+bombe ionique
+
+-*- 
+
+functiion inventaire(armurerie)
+
+	for(i=0;i<countarmurerie;i++)
+
+
+
+
+
+Exercice 7 : les commandes
+
+
+
+La rébellion possède plus de vaisseaux que de pilotes. Pour ne pas perdre de pilote au
+combat, la rébellion décide de prendre les commandes des avions à distance.
+Écrivez un programme qui va envoyer l'instruction à l'avion (vous afficherez simplement la
+commande) en fonction de la touche sur laquelle on appuie. Voici la liste des commandes :
+Espace : accélérer
+F : freiner
+flèche haute : prendre de l’altitude
+flèche basse : perdre de l’altitude
+flèche gauche : virage à gauche
+flèche droite : virage à droite
+touche A : changer d’arme
+touche Z : tirer avec l’arme
+touche D : autodestruction du vaisseau
+touche H : hyperespace
+Exemple :
+commande(Z)
+Résultat :
+“tir réussi”
+(vous êtes libre de personnaliser les messages des commandes)
+
+
+
+Exercice Bonus : rester positifs dans la guerre
+
+
+Ton pire a choisi la période des fêtes de fin d'année pour son attaque. Afin de continuer à
+garder l'espoir, la rébellion a décidé de continuer les traditions de ces fêtes en dessinant
+des sapins. écrire un programme qui prend en paramètre le nombre d'étages d'un sapin et
+qui le dessine.
+exemple :
+sapin(4);
+Résultat :
+     x
+    xxx
+   xxxxx
+    xxx
+   xxxxx
+  xxxxxxx
+   xxxxx
+  xxxxxxx
+ xxxxxxxxx
+  xxxxxxx
+ xxxxxxxxx
+xxxxxxxxxxx
+    xxx
+    xxx

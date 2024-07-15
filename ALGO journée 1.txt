@@ -1,0 +1,100 @@
+EXO
+
+Ex 1 : calcul surface du terrain
+
+variable longueur <-- L
+variable largeur <-- l
+
+calcul (L*l)
+
+afficher (surface)
+
+
+
+Ex 2 :
+
+variable cave <-- true or false
+
+Si true : hauteur 4.42
+Sinon : hauteur 1.37
+
+Variable surface <-- X
+
+fonction volume de terre (hauteur * X)
+
+Afficher ("le volume est"------"m3")
+
+
+Ex 3 :
+
+
+variable age <-- X
+
+si age > de 18 ans entrée ok
+sinon si 16 et 17ans accompagnée entrée ok
+sinon si age < de 18 ans entrée refusé
+
+
+Afficher ("votre entrée est" "accepter ou refusé" )
+
+Ex 4 : 
+
+Variable nombre <-- X
+
+fonction calcul carre (nb * nb)
+afficher resultat
+
+
+Ex5 :
+
+variable taille en cm <-- X /1000
+variable masse en gramme <-- Y /1000
+
+Fonction (X/ Y*Y)
+
+Afficher ("votre IMC est")
+
+
+Ex 6 :
+
+variable consommation en kw/h par km <--X
+variable prix du kw/h <-- Y
+
+fonction cout pour 100km (( X*Y) *100)
+
+afficher (" le prix pour 100km en voiture electrique est" "" "euros")
+
+
+Ex 7 :
+
+variable consommation en litre par km <--X
+variable prix du litre de carburant <-- Y
+
+fonction cout pour 100km (( X*Y) *100)
+afficher (" le prix pour 100km en voiture thermique est" "" "euros")
+
+
+Ex 8 :
+
+variable consommation en kw/h par km <--X
+variable prix du kw/h <-- Y
+
+fonction cout en euros pour 100km (( X*Y) *100)
+
+
+variable consommation en litre par km <--X
+variable prix du litre de carburant <-- Y
+
+fonction cout en euros pour 100km (( X*Y) *100)
+
+
+si cout electricite inferieur a cout therlique
+alors afficher ( "la voiture electrique est plus avantageuse")
+sinon afficher ( "la voiture thermique ees plus avantageuse")
+
+
+
+
+
+
+ 
